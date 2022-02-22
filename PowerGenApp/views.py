@@ -49,7 +49,6 @@ class PowerGenView:
             power_plants_df = pd.DataFrame(list(power_plants))
             power_plants_df = power_plants_df.groupby(['state'])['net_generation'].sum().reset_index()
             power_plants_df = power_plants_df.drop_duplicates()
-
             power_plants_json = power_plants_df.to_json(orient='records')
 
             return Response({
@@ -162,7 +161,7 @@ class PowerGenView:
                         'name': plant,
                         'state': state,
                         'annual_net_generation': float(plant_generation),
-                        'state_contribution': float(plant_contribution)
+                        'state_contribution': str(round(float(plant_contribution), 2)) + "%"
                     }
                 })
 

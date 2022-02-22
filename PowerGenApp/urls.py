@@ -7,5 +7,4 @@ urlpatterns = [
     path('get_plant_details', PowerGenView.get_plant_details, name='get_plant_details'),
     path('get_plants_annual_generation', PowerGenView.get_plants_annual_generation, name='get_plants_annual_generation'),
     path('get_states_annual_generation', PowerGenView.get_states_annual_generation, name='get_states_annual_generation'),
-    path('get_plant_details', PowerGenView.get_plant_details, name='get_plant_details'),
 ]
