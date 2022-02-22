@@ -33,5 +33,10 @@ a2ed122d508fbf0ba62adaf9155409a7b9120b1d
 
 -**get_plant_details?plant=Anchorage 1** - Retrieve details of a single plant
 
+## UI
+A simple UI has been developed
+
+Available here: git hub link
+
     
-    
+[Screenshot of ui available here](ui.png)
