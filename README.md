@@ -36,7 +36,7 @@ a2ed122d508fbf0ba62adaf9155409a7b9120b1d
 ## UI
 A simple UI has been developed
 
-Available here: git hub link
+Available here: https://github.com/dilaniMaheswaran/aiq-simple-ui
 
     
 [Screenshot of ui available here](ui.png)
